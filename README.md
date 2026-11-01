@@ -7,7 +7,7 @@ battery insertion electrodes for **Li, Na, K, Mg, Ca and Zn** from the chemical 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-Materials%20Project%20CC%20BY%204.0-orange)](https://materialsproject.org)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shaistasaddique-electrode-voltage-ml.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://electrode-voltage-ml-9wse7kqvglb3j98dxwqjt7.streamlit.app)
 
 <p align="center"><img src="docs/screenshots/predict.png" width="88%" alt="Electrode Voltage Predictor"></p>
 
@@ -56,7 +56,7 @@ The **Electrode Voltage Predictor** has six tabs:
 
 ### Live app
 
-**[Open the Electrode Voltage Predictor](https://shaistasaddique-electrode-voltage-ml.streamlit.app)** (Streamlit Community Cloud).
+**[Open the Electrode Voltage Predictor](https://electrode-voltage-ml-9wse7kqvglb3j98dxwqjt7.streamlit.app)** (Streamlit Community Cloud).
 The repository contains two front ends for the same model: `streamlit_app.py` (Streamlit) and `app/app.py` (Gradio).
 
 ### Run it locally
