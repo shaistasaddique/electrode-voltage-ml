@@ -7,7 +7,7 @@ battery insertion electrodes for **Li, Na, K, Mg, Ca and Zn** from the chemical 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-Materials%20Project%20CC%20BY%204.0-orange)](https://materialsproject.org)
-[![Gradio app](https://img.shields.io/badge/app-Gradio-ff7c00)](app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shaistasaddique-electrode-voltage-ml.streamlit.app)
 
 <p align="center"><img src="docs/screenshots/predict.png" width="88%" alt="Electrode Voltage Predictor"></p>
 
@@ -54,9 +54,19 @@ The **Electrode Voltage Predictor** has six tabs:
 <img src="docs/screenshots/explore.png" width="49%" alt="Explore the data">
 </p>
 
+### Live app
+
+**[Open the Electrode Voltage Predictor](https://shaistasaddique-electrode-voltage-ml.streamlit.app)** (Streamlit Community Cloud).
+The repository contains two front ends for the same model: `streamlit_app.py` (Streamlit) and `app/app.py` (Gradio).
+
 ### Run it locally
 
 ```bash
+# Streamlit version
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
+# Gradio version
 git clone https://github.com/shaistasaddique/electrode-voltage-ml.git
 cd electrode-voltage-ml/app
 pip install -r requirements.txt
@@ -110,7 +120,9 @@ The full write-up, with all 14 figures, is in [**report/Electrode_Voltage_ML_Boo
 
 ```
 electrode-voltage-ml/
-├── app/                         Interactive Gradio app (also a ready-to-upload Hugging Face Space)
+├── streamlit_app.py             Interactive app, Streamlit version (deployed on Streamlit Community Cloud)
+├── .streamlit/config.toml       App theme
+├── app/                         Interactive app, Gradio version, and the shared prediction code
 │   ├── app.py                   User interface (6 tabs)
 │   ├── core.py                  Prediction logic, usable from Python
 │   ├── featurize.py             Features, identical to training
