@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Physics-Informed Machine Learning of Battery Electrode Voltages: From Composition to Cross-Ion Transfer"
+authors:
+  - family-names: "Saddique"
+    given-names: "Shaista"
+    affiliation: "Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia"
+date-released: 2026-10-30
+version: 1.0.0
+license: MIT
+keywords:
+  - battery materials
+  - electrode voltage
+  - machine learning
+  - materials informatics
+  - Materials Project
+  - XGBoost
+  - CHGNet

@@ -1,0 +1,10 @@
+# App and tests
+gradio>=6.0
+pymatgen>=2024.1.1
+xgboost>=2.0
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18
+pytest>=7.0
+# Notebooks (installed inside Colab by each notebook)
+# mp-api, chgnet, scikit-learn, matplotlib, seaborn, pyarrow

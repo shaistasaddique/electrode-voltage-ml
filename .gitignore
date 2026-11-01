@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.gradio/
+flagged/
+.env
+*.log
+.DS_Store
+# large intermediate data (download with the week 1 notebook)
+data/*.csv
+data/*.parquet
